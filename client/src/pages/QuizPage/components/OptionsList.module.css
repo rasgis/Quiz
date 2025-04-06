@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option {
+  padding: 15px;
+  background: #f8f9fa;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option:hover {
+  background: #e9ecef;
+}
+
+.selected {
+  background: #cce5ff;
+  border-color: #007bff;
+}
+
+.selected:hover {
+  background: #b8daff;
+}

@@ -1,0 +1,97 @@
+.form {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formControl:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.optionRow {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.optionActions {
+  display: flex;
+  gap: 10px;
+}
+
+.correctButton {
+  padding: 8px 12px;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  background: white;
+  color: #28a745;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.correctButton:hover {
+  background: #28a745;
+  color: white;
+}
+
+.correctButton.correct {
+  background: #28a745;
+  color: white;
+}
+
+.removeButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background: #c82333;
+}
+
+.addButton {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addButton:hover {
+  background: #5a6268;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.item:hover {
+  background: #e9ecef;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scoreValue {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.percentage {
+  color: #666;
+  font-size: 0.9rem;
+}
